@@ -30,7 +30,7 @@ h1,
 h2,
 h3,
 p {
-  padding: 5px;
+  padding-left: 10px;
   font-size: 15px;
   margin-bottom: 20px;
 }
@@ -149,10 +149,12 @@ h3, h2
 /* main */
 
 #main-container {
+  min-height: 100%;
   padding-top: 20px;
 }
 
 .main-section {
+  min-height: 100%;
   float: left;
   width: 100%;
   max-width: 650px;
@@ -322,6 +324,7 @@ html, body {
 }
 
 #footer {
+  padding-bottom: 0px;
   background: black;
 
 
