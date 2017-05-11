@@ -253,7 +253,7 @@ section.sidebar {
 }
 
   .container {
-    padding: 0px;
+    padding-left: 10px;
   }
 
 
@@ -276,6 +276,7 @@ section.sidebar {
 html, body {
   height: 100%;
 }
+
 
 
 
@@ -312,6 +313,7 @@ html, body {
   padding:0;
 }
 #leftContent img{
+  padding-left: 10px;
   width:100%;
   height: auto;
 }
